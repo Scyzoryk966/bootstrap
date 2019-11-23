@@ -1,0 +1,37 @@
+
+/*kolorki:
+#010038 -  granatowy
+#293a80 - niebieski
+#537ec5 -  jasno niebieski
+#f39422 - zółto-pomarańczowy
+*/
+
+body {
+    font-family: Tahoma, serif;
+    font-size:calc(12px + 0.3vw);
+    line-height: 1em;
+    background: linear-gradient(to bottom, #e2ebf0, #cfd9df) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.main-content{
+
+}
+.sticky-top{
+    top: 20px;
+}
+.navbar{
+    top:15px;
+    border-radius: 25px;
+    margin: 0 1% 1% 1%;
+}
+.navbar-brand{
+    width:60px;
+    height: 60px;
+}
+
+.navbar img{
+    width: 50px;
+    height: 50px;
+}
