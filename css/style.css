@@ -10,14 +10,16 @@ body {
     font-family: Tahoma, serif;
     font-size:calc(12px + 0.3vw);
     line-height: 1em;
-    background: linear-gradient(to bottom, #e2ebf0, #cfd9df) no-repeat center center fixed;
+    background: linear-gradient(to bottom left, #f39422, #9d4f00) no-repeat center center fixed;
     background-size: cover;
 }
 
 .main-content{
  margin:1%;
 }
-
+.container{
+    max-width: 1900px;
+}
 
 .sticky-top{
     top: 20px;
@@ -25,14 +27,18 @@ body {
 
 .navbar{
     top:15px;
-    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1.5vh;
     margin: 0 0 1% 0;
 }
-.navbar-brand{
-    width:15%;
+.navbar-brand {
+    padding: 0;
+    overflow: hidden;
 }
-.navbar-brand img{
-    width:100%;
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
 }
 
 
