@@ -14,24 +14,30 @@ body {
     background-size: cover;
 }
 
-
 .main-content{
-
+ margin:1%;
 }
+
+
 .sticky-top{
     top: 20px;
 }
+
 .navbar{
     top:15px;
-    border-radius: 25px;
-    margin: 0 1% 1% 1%;
+    border-radius: 15px;
+    margin: 0 0 1% 0;
 }
 .navbar-brand{
-    width:60px;
-    height: 60px;
+    width:15%;
+}
+.navbar-brand img{
+    width:100%;
 }
 
-.navbar img{
-    width: 50px;
-    height: 50px;
+
+.page-footer{
+    color: white;
+    border-radius: 15px;
+    margin: 1% 0 1% 0;
 }
