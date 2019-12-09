@@ -21,6 +21,11 @@ body {
     max-width: 1900px;
 }
 
+[class*="col-"] {
+    background-clip: padding-box;
+    border: 5px solid transparent;
+}
+
 .sticky-top{
     top: 20px;
 }
@@ -36,7 +41,7 @@ body {
 }
 .navbar-brand {
     padding: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .navbar-brand>img {
     height: 100%;
@@ -45,7 +50,6 @@ body {
 }
 .nav-item {
     font-size: 1.5em;
-
 }
 
 .page-footer{
