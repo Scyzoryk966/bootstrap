@@ -13,30 +13,30 @@
 <body>
 	<section class="main-content">
 			<div class="container-fluid">
-							<nav class="col-md-12 navbar navbar-expand-sm navbar-dark sticky-top">
+							<nav class="col-md-12 navbar navbar-expand-lg navbar-dark sticky-top">
 									<a class="navbar-brand" href="#"><img alt="logo strony" title="Posthub" src="img/logo.svg"></a>
 									<ul class="navbar-nav mr-auto">
 											<li class="nav-item active">
-													<a class="nav-link" href="#">Link</a>
+													<a class="nav-link" href="#">Strona główna</a>
 											</li>
 											<li class="nav-item">
-													<a class="nav-link" href="#">Link</a>
+													<a class="nav-link" href="#">Śledź paczkę</a>
+											</li>
+											<li class="nav-item">
+													<a class="nav-link" href="#">O nas</a>
+											</li>
+											<li class="nav-item">
+											<a class="nav-link" href="#">Dodatki</a>
 											</li>
 									</ul>
+									<button class="btn btn-light my-2 my-sm-0 btn-lg" type="submit" style="margin-right: 30px;">Zaloguj</button>
 							</nav>
+
 			<div class="container">
 					<div class="row">
 							<div class="col-md-9">
 									<div class="bg-light p-5 rounded-lg"><h1>Witam na stronie głownej</h1>
-									<p class="parag">"Nie chwal dnia przed sraniem."</p>
-									<p class ="autor">Paweł Skiba 2018</p>
-									<p>"Jeśli chcesz wejść do cukierni, musisz wziąć rozpęd."</p>
-                                    <p class ="autor">Paweł Skiba 2017</p>
-                                    <p>"Lew z małym przyrodzeniem, głośno ryczeć musi."</p>
-                                    <p class ="autor">Paweł Skiba 2016</p>
-									<button id="hide">Hide</button>
-                                    <button id="show">Show</button>
-                                    <button id="exact">Wyrwij</button>
+									<h1>główny content</h1>
 									</div>
 							</div>
 							<div class="col-md-3 ">
@@ -59,19 +59,19 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script>
-        $(document).ready(function(){
-          $("#hide").click(function(){
-            $(".autor").hide(1000);
-          });
-
-          $("#show").click(function(){
-            $(".autor").show(1000);
-          });
-          $("#exact").click(function(){
-              alert($("p.parag")[0].textContent);
-          });
-
-        });
+        // $(document).ready(function(){
+        //   $("#hide").click(function(){
+        //     $(".autor").hide(1000);
+        //   });
+		//
+        //   $("#show").click(function(){
+        //     $(".autor").show(1000);
+        //   });
+        //   $("#exact").click(function(){
+        //       alert($("p.parag")[0].textContent);
+        //   });
+		//
+        // });
 	</script>
 </body>
 </html>
