@@ -33,7 +33,6 @@ body {
 .navbar{
     font-family: Tahoma, serif;
     font-weight: 500;
-    text-shadow: 1px 1px 5px black;
     top:15px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 1.5vh;
@@ -46,6 +45,7 @@ body {
 
 .nav-item {
     font-size: 1.5em;
+    text-shadow: 1px 1px 5px black;
 }
 
 .page-footer{
